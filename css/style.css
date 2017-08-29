@@ -1,5 +1,5 @@
 body {
-    background: #000000;
+    background-image: "./img/bg.png";
 }
 html, body, #wrapper {
     height:100%;
