@@ -1,0 +1,87 @@
+body {
+    background: #000000;
+}
+html, body, #wrapper {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+ #wrapper td {
+    vertical-align: middle;
+    text-align: center;
+ }
+
+ a:link {
+     color:inherit
+    }
+
+ a:active {
+     color:inherit
+    }
+
+ a:visited {
+     color:inherit 
+    }
+.white-font {
+    color: white;
+}
+
+ .special:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: #ff0000;
+}
+
+.hover-insta:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      }
+
+.hover-fb:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: #3b5598;
+}
+
+.hover-twitter:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: #0084b4;
+}
+
+.hover-linkedin:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: #0077B5;
+}
+
+.hover-mail:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: #0072c6;
+}
