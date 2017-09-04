@@ -112,6 +112,15 @@ html, body, #wrapper {
     background-color: #1ebea5;
 }
 
+.hover-whatsapp:hover:before{
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: #07E997;
+}
+
 .footer{
     font: roboto;
 }
