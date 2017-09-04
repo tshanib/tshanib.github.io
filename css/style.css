@@ -112,7 +112,7 @@ html, body, #wrapper {
     background-color: #1ebea5;
 }
 
-.hover-whatsapp:hover:before{
+.hover-phone:hover:before{
     content: '';
     position: fixed;
     display: block;
